@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+    
+}
+#top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+}
+#working-area{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+     max-width: 1920px;
+     
+     
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px auto;
+    
+}
+#left,#right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#logo{
+
+    filter: invert(100%);
+}
+#nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+#hero{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    width: 100%;
+    justify-content: space-between;
+    
+    /* background-color:blue ; */
+}
+
+#heroleft .ele{
+    height: 8vw;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#heroleft .ele h1:nth-child(1){
+    top:0
+}
+
+#heroleft .ele h1{
+    line-height: .8;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    color: #e7f5ff;
+    font-weight: 100;
+    font-size: 20vh;
+    letter-spacing: 2px;
+    
+}
+#heroleft{
+    min-width: 50%;
+    
+    /* background-color: yellow; */
+}
+#heroright{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    width: 25%;
+    color: #fff;
+    
+
+}
+#heroright p{
+    
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+#heroright #imagediv{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-image: url('https://images.unsplash.com/photo-1600600423621-70c9f4416ae9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 250px ; */
+    background-position: center;
+    border-radius: 25PX;
+}
+#heroright :nth-child(3){
+    color:white;
+    margin-bottom: 40px;
+}
+#heroleft button{
+    cursor: pointer;
+    padding: 5px 15px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+  font-size: large;
+
+}
+#back{
+width: 100%;
+height: 100vh;
+
+}
+#back img{
+    width: 100%;
+    height: 100%;
+   
+    object-fit: cover;
+}
